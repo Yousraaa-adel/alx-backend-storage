@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
-'''Task'8 module.
+'''Task 8's module.
 '''
 
 
-from pymongo import MongoClient
-
 def list_all(mongo_collection):
-    documets = list(mongo_collection.find());
-    if not documents:
-        return []
-    else:
-g       return documents
+    '''Lists all documents in a collection.
+    '''
+    return [doc for doc in mongo_collection.find()]
