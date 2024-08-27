@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
+'''Task'8 module.
 '''
-    Task'8 module.
-'''
+
+
 from pymongo import MongoClient
 
 def list_all(mongo_collection):
