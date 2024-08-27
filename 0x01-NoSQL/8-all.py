@@ -1,4 +1,7 @@
 /usr/bin/env python3
+'''
+    Task'8 module.
+'''
 from pymongo import MongoClient
 
 def list_all(mongo_collection):
@@ -6,4 +9,4 @@ def list_all(mongo_collection):
     if not documents:
         return []
     else:
-        return documents
+g       return documents
